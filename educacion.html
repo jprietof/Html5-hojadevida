@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jorge Prieto">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Educacion</title>
+</head>
+<body>
+	<header>
+		<svg width="176" height="175" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+			<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+			<g>
+				<title>Layer 1</title>
+				<rect transform="rotate(-44.9145, 88.6209, 86.7872)" fill-opacity="0" id="svg_1" height="112.65069" width="110.961565" y="30.461898" x="33.140144" stroke-width="7" stroke="#038403" fill="#000000"/>
+				<text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="24" id="svg_4" y="93" x="88" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#038403" fill="#000000">Jorge Prieto</text>
+			</g>
+		</svg>
+	</header>
+	<section>
+		<h1>Curriculum Vitae</h1>
+		<h2>Datos Personales</h2>
+		<p><strong>Nombres:</strong> Jorge Armando</p>
+		<p><strong>Apellidos:</strong>Prieto Franco</p>
+		<p><strong>Fecha de nacimiento:</strong> <time datetime="1992-12-25">25 de diciembre de 1992</time></p>
+		<p><strong>Lugar de nacimiento:</strong> Sopo Cundinamarca / Colombia</p>
+		<!--**** NAVEGACION ****-->
+		<h3>Menú</h3>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section>
+		<article>
+			<h2>Educación</h2>
+			<hr>
+			<table border="1" cellpadding="6" cellspacing="0">
+				<thead>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culmino?</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2009</td>
+						<td>Domingo Savio</td>
+						<td>Guasca Cund.</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+						<td>Benowu</td>
+						<td>Madrid-España</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+						<td>Asoapp</td>
+						<td>Madrid-España</td>
+						<td>No</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+	<section>
+		<h2>Agregar Estudios</h2>
+		<form>
+			<label for="year"><strong>Año: </strong></label>
+			<select name="year" id="year">
+				<option value="1">2017</option>
+				<option value="2">2016</option>
+				<option value="3">2015</option>
+				<option value="4">2014</option>
+			</select>
+			<br>
+			<label for="inst"><strong>Institución: </strong></label>
+			<input type="text" name="inst" id="inst" placeholder="Ej: U. Nacional" required>
+			<br>
+			<label for="lugar"><strong>Lugar: </strong></label>
+			<input type="text" name="lugar" id="lugar" placeholder="Ej: Bogotá" required>
+			<br>
+			<label for="termino"><strong>¿Culmino? </strong></label>
+			<input type="radio" name="termino" id="termino" value="Si">Si
+			<input type="radio" name="termino" id="termino" value="No">No
+			<br>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+	<footer>
+		<h2>Contacto</h2>
+		<p>Email: martinprieto69@hotmail.com</p>
+		<p>Tel: 3125737080</p>
+	</footer>
+</body>
+</html>
